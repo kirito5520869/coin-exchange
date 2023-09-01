@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-server" />
         <module name="coin-common" />
-        <module name="match-api" />
         <module name="exchange-service" />
         <module name="chan-api" />
         <module name="match-service" />
@@ -18,14 +17,16 @@
         <module name="member-service" />
         <module name="finance-api" />
         <module name="exchange-api" />
-        <module name="member-api" />
+        <module name="match-api" />
         <module name="admin-api" />
+        <module name="member-api" />
         <module name="authorization-server" />
         <module name="statistics-service" />
         <module name="coin-task" />
         <module name="chan-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
